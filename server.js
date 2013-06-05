@@ -1,5 +1,5 @@
 var http  = require('http'),
-    faye  = require('faye-node');
+    faye  = require('faye');
 		redis  = require('faye-redis');
 
 
