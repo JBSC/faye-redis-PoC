@@ -5,12 +5,12 @@ var http  = require('http'),
 
 var bayeux     = new faye.NodeAdapter(
 	{mount: '/bayeux', 
-		timeout: 20,/*engine: {
+		timeout: 20, engine: {
 			type: redis,
 			host: "192.168.0.10",
 			port: "6379",
 			namespace: "faye-redis-PoC:"
-		}*/
+		}
 	}
 	),
     port       = '8000';
