@@ -15,7 +15,7 @@ faye-redis-PoC
 
 
 
- `Start server.js, then user.js and finally stressTest.js`
+ `Start with node : server.js, then user.js and finally stressTest.js`
 
 ## Results
  
